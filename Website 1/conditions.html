@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condition</title>
+	<style>
+		.head1 {
+			font-size:40px;
+			color:#004f99;
+			font-weight:bold;
+		}
+		.head2 {
+			font-size:17px;
+			margin-left:10px;
+			margin-bottom:15px;
+		}
+		body {
+			margin: 0 auto;
+            margin-bottom: auto;
+			background-position:center;
+			background-size: contain;
+		}
+	
+		.menu {
+			position: sticky;
+			top: 0;
+			background-color: #004f99;
+			padding:10px 0px 10px 0px;
+			color:white;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.menu a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		.menu-log {
+			right: auto;
+			float: right;
+		}
+		footer {
+			width: 100%;
+			margin-bottom: 0px;
+			background-color: #000;
+			color: #fff;
+			position: absolute;
+			padding-top:20px;
+			padding-bottom:50px;
+			text-align:center;
+			font-size:30px;
+			font-weight:bold;
+		}
+		.body_sec {
+			margin-left:20px;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<!-- Header Section -->
+	<header>
+		<div class="head1">Intern Placement Agreement</div>
+		<div class="head2">This Agreement outlines specific resposabilities and expectations accepted by:</div>
+	</header>
+	
+	<!-- Menu Navigation Bar -->
+	<div class="menu">
+		<a href="employer.html">EMPLOYER</a>
+		<a href="student.html">STUDENT</a>
+		<a href="instructor.html">INSTRUCTOR</a>
+		<div class="menu-log">
+			<a href="conditions.html">CONDITIONS OF INTERNSHIP</a>
+		</div>
+	</div>
+	
+	<!-- Body section -->
+	<div class = "body_sec">
+		<section id="Content">
+			<h3>The days of the internship will be on:</h3>
+                <input type="checkbox" id="day1" name="day1" value="mon">
+                <label for="day1"> Monday</label><br>
+                <input type="checkbox" id="day2" name="day2" value="tue">
+                <label for="day2"> Tuesday</label><br>
+                <input type="checkbox" id="day3" name="day3" value="wed">
+                <label for="day3"> Wednesday</label><br>
+                <input type="checkbox" id="day4" name="day4" value="thu">
+                <label for="day4"> Thursday</label><br>
+                <input type="checkbox" id="day5" name="day5" value="fri">
+                <label for="day5"> Friday</label><br>
+            <h3>of each week. All other days student will report to classroom.</h3>
+
+            <h4><form action="/action_page.php">
+                <label for="begin">The internship will begin on (day/month/year):</label>
+                <input type="text" id="begin" name="begin"><br><br>
+                <label for="end">and will end on about (day/month/year):</label>
+                <input type="text" id="end" name="end"><br><br>
+                <input type="submit" value="Submit">
+              </form> (Job placement may continue in January after evaluation.)</h4>
+
+            <h3>The student will work:</h3>
+                <input type="checkbox" id="time1" name="time1" value="morning">
+                <label for="time1"> Mornings 9:30-12:05</label><br>
+                <input type="checkbox" id="time2" name="time2" value="afternoon">
+                <label for="time2"> Afternoons 12:50-3:30</label><br>
+
+            <h3>This internship will be:</h3>
+                <input type="checkbox" id="unpaid" name="unpaid" value="Unpaid">
+                <label for="unpaid"> Unpaid</label><br>
+                <input type="checkbox" id="paid" name="paid" value="Paid">
+                <label for="paid"> Paid</label><br>
+
+		</section>
+	</div>
+	
+	<!-- Footer Section -->
+	<footer>Website 1</footer>
+</body>
+</html>				
