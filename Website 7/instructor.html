@@ -1,0 +1,108 @@
+<!doctype html>
+<title>Instructor</title>
+<style type="text/css">
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #main {
+        display: flex;
+        flex: 1;
+    }
+
+    #main>article {
+        flex: 1;
+        order: 1;
+    }
+
+    #main>nav,
+    #main>aside {
+        flex: 0 0 20vw;
+    }
+
+    #main>nav {
+        background: #746651;
+        order: 3;
+        
+    }
+
+    #main>aside {
+        background: beige;
+        order: 2;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    header,
+    footer {
+        background: rgb(95, 79, 36);
+        height: 20vh;
+        font-size: 40px;
+        color: white;
+    }
+
+    header,
+    footer,
+    article,
+    nav,
+    aside {
+        padding: 1em;}
+
+        .menu {
+            position: static;
+            top: 0;
+            background-color: rgb(153, 152, 122);
+            padding: 10px 0px 10px 0px;
+            color: white;
+            margin: auto auto;
+            overflow: hidden;
+        
+        }
+        .menu a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 10px 12px;
+            text-decoration: black;
+            font-size: 20px;
+        }
+    
+</style>
+
+<body>
+    <header>Instructor</header>
+    <div id="main">
+        <article>
+			
+            <h3><form action="/action_page.php">
+                <label for="instructor">Instructor:</label>
+                <input type="text" id="instructor" name="instructor"><br><br>
+                <label for="phone">Instructor's Phone:</label>
+                <input type="text" id="phone" name="phone"><br><br>
+                <label for="iemail">Instructor's E-mail:</label>
+                <input type="text" id="iemail" name="iemail"><br><br>
+                <input type="submit" value="Submit">
+              </form></h3>
+        
+        </article>
+            <nav id="nav">
+			<div class="innertube">
+			
+			<div class="menu">
+                <a href="employer.html">Employer</a>
+                <a href="student.html">Student</a>
+                <a href="instructor.html">Instructor</a>
+                <a href="conditions.html">Conditions of Internship</a>
+                </div>
+            </nav>
+        <aside>This agreement outlines specific responsabilities and expectations accepted by:</aside>
+    </div>
+    <footer>Website 7</footer>
+</body>
