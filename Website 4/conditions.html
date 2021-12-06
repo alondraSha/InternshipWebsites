@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Conditions</title>
+		<style type="text/css">
+		
+			body{
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				height: 100%; 
+				max-height: 100%; 
+				font-family:Sans-serif;
+				line-height: 1.5em;
+			}
+			
+			#nav{
+				position: absolute;
+				top: 0;
+				bottom: 0; 
+				right: 0;
+				width: 230px; 
+				height: 100%;
+				overflow: hidden;
+				background: rgb(57, 10, 167);
+			}
+			
+			main{
+				position: fixed;
+				top: 0; 
+				left: 0;
+				right: 230px; 
+				bottom: 0;
+				overflow: auto; 
+				background: rgb(106, 53, 230);
+			}
+			
+			.innertube{
+				margin: 15px; 
+			}
+			
+			p {
+				color: white;
+			}
+	
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul a {
+				color: darkgreen;
+				text-decoration: none;
+			}
+					
+			/*IE6 fix*/
+			* html body{
+				padding: 0 230px 0 0; 
+			}
+			
+			* html main{ 
+				height: 100%; 
+				width: 100%; 
+			}
+			.menu {
+			position: sticky;
+			top: 0;
+			background-color: rgb(33, 3, 104);
+			padding:10px 0px 10px 0px;
+			color:white;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.menu a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+			</style>
+		
+		
+	
+	</head>
+	
+	<body>		
+				
+		<main>
+			<div class="innertube">
+				
+				<article>
+			
+                    <h3>The days of the internship will be on:</h3>
+                    <input type="checkbox" id="day1" name="day1" value="mon">
+                    <label for="day1"> Monday</label><br>
+                    <input type="checkbox" id="day2" name="day2" value="tue">
+                    <label for="day2"> Tuesday</label><br>
+                    <input type="checkbox" id="day3" name="day3" value="wed">
+                    <label for="day3"> Wednesday</label><br>
+                    <input type="checkbox" id="day4" name="day4" value="thu">
+                    <label for="day4"> Thursday</label><br>
+                    <input type="checkbox" id="day5" name="day5" value="fri">
+                    <label for="day5"> Friday</label><br>
+                <h3>of each week. All other days student will report to classroom.</h3>
+    
+                <h4><form action="/action_page.php">
+                    <label for="begin">The internship will begin on (day/month/year):</label>
+                    <input type="text" id="begin" name="begin"><br><br>
+                    <label for="end">and will end on about (day/month/year):</label>
+                    <input type="text" id="end" name="end"><br><br>
+                    <input type="submit" value="Submit">
+                  </form> (Job placement may continue in January after evaluation.)</h4>
+    
+                <h3>The student will work:</h3>
+                    <input type="checkbox" id="time1" name="time1" value="morning">
+                    <label for="time1"> Mornings 9:30-12:05</label><br>
+                    <input type="checkbox" id="time2" name="time2" value="afternoon">
+                    <label for="time2"> Afternoons 12:50-3:30</label><br>
+    
+                <h3>This internship will be:</h3>
+                    <input type="checkbox" id="unpaid" name="unpaid" value="Unpaid">
+                    <label for="unpaid"> Unpaid</label><br>
+                    <input type="checkbox" id="paid" name="paid" value="Paid">
+                    <label for="paid"> Paid</label><br>
+                
+                </article>
+				
+			</div>
+		</main>
+	
+		<nav id="nav">
+			<div class="innertube">
+			
+			<h3>Menu</h3>
+			<div class="menu">
+                <a href="employer.html">Employer</a>
+                <a href="student.html">Student</a>
+                <a href="instructor.html">Instructor</a>
+                <a href="conditions.html">Conditions of Internship</a>
+                </div>
+            <h3>Website 4</h3>
+			
+			</ul>
+			</div>
+		</nav>
+	
+	</body>
+</html>
