@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8">
+ <style>
+BODY {
+	margin: 20px 0px 20px 0px;
+	background-color: #cccf1f;
+	font-family: arial;
+	font-size: 12pt;
+	}
+	
+.page{
+	display: block;
+	width: 1000px;
+	min-height: 800px;
+	overflow: auto;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+	}
+	
+.pageHeader{
+	background-color: #b3a920;
+	float: left;
+	clear: none;
+	min-height: 150px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 20px;
+    color: white;
+    font-size: 25px;
+	}
+
+.pageNavigationBar{
+	background-color: #ece814;
+	color: #FFFFFF;
+	text-align: center;
+	float: left;
+	clear: none;
+	min-height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	}
+	
+.pageContent{
+	background-color: #f3ffaf;
+	float: left;
+	clear: none;
+	min-height: 550px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	}
+	
+.pageFooter{
+	background-color: #b3a920;
+	float: left;
+	clear: none;
+	min-height: 50px;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+    color: white;
+	}
+    .menu {
+			position: sticky;
+			top: 0;
+			background-color: rgb(243, 229, 29);
+			padding:10px 0px 10px 0px;
+			color:white;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.menu a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 20px;
+            margin-left: 80px;
+		}
+ </style>
+ 
+ <title>Conditions</title>
+</head>
+<body>
+<div class="page">
+ <div class="pageHeader" style="text-align: center;">
+     <h1>Conditions</h1>
+ 
+ 
+ </div>
+ <div class="pageNavigationBar">
+    <div class="menu">
+        <a href="employer.html">Employer</a>
+        <a href="student.html">Student</a>
+        <a href="instructor.html">Instructor</a>
+        <a href="conditions.html">Conditions of Internship</a>
+        </div>
+ 
+ </div> 
+ <div class="pageContent">
+    <article>
+			
+        <h3>The days of the internship will be on:</h3>
+        <input type="checkbox" id="day1" name="day1" value="mon">
+        <label for="day1"> Monday</label><br>
+        <input type="checkbox" id="day2" name="day2" value="tue">
+        <label for="day2"> Tuesday</label><br>
+        <input type="checkbox" id="day3" name="day3" value="wed">
+        <label for="day3"> Wednesday</label><br>
+        <input type="checkbox" id="day4" name="day4" value="thu">
+        <label for="day4"> Thursday</label><br>
+        <input type="checkbox" id="day5" name="day5" value="fri">
+        <label for="day5"> Friday</label><br>
+    <h3>of each week. All other days student will report to classroom.</h3>
+
+    <h4><form action="/action_page.php">
+        <label for="begin">The internship will begin on (day/month/year):</label>
+        <input type="text" id="begin" name="begin"><br><br>
+        <label for="end">and will end on about (day/month/year):</label>
+        <input type="text" id="end" name="end"><br><br>
+        <input type="submit" value="Submit">
+      </form> (Job placement may continue in January after evaluation.)</h4>
+
+    <h3>The student will work:</h3>
+        <input type="checkbox" id="time1" name="time1" value="morning">
+        <label for="time1"> Mornings 9:30-12:05</label><br>
+        <input type="checkbox" id="time2" name="time2" value="afternoon">
+        <label for="time2"> Afternoons 12:50-3:30</label><br>
+
+    <h3>This internship will be:</h3>
+        <input type="checkbox" id="unpaid" name="unpaid" value="Unpaid">
+        <label for="unpaid"> Unpaid</label><br>
+        <input type="checkbox" id="paid" name="paid" value="Paid">
+        <label for="paid"> Paid</label><br>
+    
+    </article>
+
+ 
+ </div>
+ <div class="pageFooter">
+ Website 12 
+ </div>
+</div>
+</body>
+</html>
